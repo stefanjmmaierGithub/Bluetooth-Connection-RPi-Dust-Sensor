@@ -1,0 +1,7 @@
+Vermutlich wird ein Objekt zur falschen Zeit zerstört und deshalb kann der dritte wechsel beim abrufen 
+der Messdaten nicht gemacht werden.
+
+Lösung.
+
+- In measurementThreads.py exception handling einpflegen um die stelle zu finden wo es passiert
+- Objekte sauber beenden mit del object (Objekt zerstören)
